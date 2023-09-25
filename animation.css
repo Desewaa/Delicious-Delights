@@ -1,0 +1,50 @@
+.food{
+    width: 150px;
+    height: 150px;
+    background-color: #500000;
+    position: relative;
+    /* animation-name: square;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state:running ; */
+    animation: square 4s linear 2s infinite alternate running;
+
+}
+@keyframes square{
+/* from{
+    background-color: #345673;
+}
+to{
+    background-color: #876524;
+} */
+0%{
+    background-color:#987654 ;
+    left:0px ;
+    top:0px ;
+}
+25%{
+    background-color:#123456 ;
+    left: 500px;
+    top:0px ;
+}
+50%{
+    background-color: #456784;
+    left: 500px;
+    top: 500px;
+    border-radius: 50%;
+}
+75% {
+    background-color: #ffff00 ;
+    left: 0px;
+    top: 500px ;
+}
+100%{
+    background-color:#ff00ff ;
+    left: 0px;
+    top:0px ;
+    border-radius:0px ;
+}
+}

@@ -1,0 +1,62 @@
+.circle{
+    width: 200px;
+    height: 200px;
+    border: 15px solid #123456;
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    animation: circle 2s infinite forwards;
+}
+@keyframes circle{
+   
+    0%{
+        border-color:#123456 ;
+        transform: scale(1)
+    }
+    25%{
+       border-color:#987654 ;
+        transform: scale(1.1)
+    }
+    50%{
+      border-color: #076543;
+        transform: scale(1.3)
+    }
+    75% {
+       border-color:#567890 ;
+        transform: scale(1.1)
+    }
+    100%{
+        border-color:#098765 ;
+        transform: scale(1)
+    }
+    }
+    .square{
+        width: 75px;
+        height: 75px;
+        border: 5px solid #008765;
+        animation: square 2s infinite ease-in-out alternate-reverse;
+    }
+    @keyframes square{
+        0%{
+            transform: rotate(0deg);
+            
+        }
+        25%{
+           border-color:#987654 ;border-width: 20px;
+           
+        }
+        50%{
+          border-color: #076543;border-width: 40px;
+            
+        }
+        75% {
+           border-color:#567890 ;border-width:60px ;
+            
+        }
+        100%{
+            
+            transform: rotate(360deg);border-width:10px ;
+    }
+}

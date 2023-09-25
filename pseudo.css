@@ -1,0 +1,73 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:link{
+    text-decoration: none;
+
+}
+a:hover{
+    color: orangered;
+}
+a:active{
+    color: limegreen;
+}
+a:visited{
+    color: red;
+}
+
+.check:checked{
+    outline: 2px solid black;
+    color: red;
+}
+.user:disabled{
+    background-color: gray;
+}
+.email:focus{
+    outline: 2px solid green;
+}
+.p:first-of-type{
+    color: green;
+}
+p:last-of-type{
+    font-size: 20px;
+}
+.p:nth-of-type(2){
+    background-color: blue;
+}
+li:first-child{
+    color: red;
+}
+li:last-child{
+    font-size: 23px;
+}
+li:nth-child(4){
+    background-color: purple;
+}
+
+/* PSEUDO ELEMENT */
+input::placeholder{
+    font-size: 18px;
+    color: blue;
+}
+.paragraph::first-letter{
+    font-size: 30px ;
+    color: lime;
+}
+.paragraph::first-line{
+    color: blue;
+}
+::selection{
+    background: yellow;
+    color: orangered;
+}
+.p::after{
+    content:' ***' ;
+}
+.p::before{
+    content: '###';
+}
+li::marker{
+    content: '$';
+}

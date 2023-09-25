@@ -1,0 +1,18 @@
+.laptop{
+    width: 150px;
+    height: 150px;
+    margin: 100px auto;
+    background-color: #ff00ff;
+    /* transition-property: width;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-timing-function: linear; */
+    transition: all 1s linear 1s ;
+}
+.laptop:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #400000;
+    transform: rotate(180deg);
+}

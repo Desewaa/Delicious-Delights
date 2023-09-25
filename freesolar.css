@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-size: 100%;
+    background-color: white;
+    
+}
+.sun{
+    background-size:cover;
+    box-shadow: -4px 2px 56px #f9c05f;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #f9c05f;
+
+}
+.marcury{
+    height: 20px;
+    width: 20px;
+    background: radial-gradient(circle,#935f2a 60%,#54370c 75%);
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: -4px 2px 56px #f9c05f;
+    left: 43%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    animation: orbit2 2s linear infinite;
+}
+@keyframes orbit2{
+    from{transform: rotate(0deg)translateX(70px)rotate(0deg);}
+    to{transform: rotate(0deg)translateX(70px)rotate(0deg);}
+}
+p{
+    
+}

@@ -1,0 +1,25 @@
+.container{
+    background-color: #4524fb;
+    width: 610px;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    flex-flow:row nowrap ;
+    justify-content: space-evenly;
+    /* padding: 20px; */
+    align-items: center;
+    align-content:space-around;
+} 
+.item{
+    width: 50px;
+    height: 28px;
+    text-align: center;
+    background-color: #15f831;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 2px 5px black;
+    
+}

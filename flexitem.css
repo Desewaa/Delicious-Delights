@@ -1,0 +1,44 @@
+.container{
+    background-color: #4524fb;
+    width: 610px;
+    height: 300px;
+    margin: 100px auto;border-radius: 10px;
+    display: flex;
+    
+} 
+.item{
+    /* width: 50px; */
+    height: 28px;
+    text-align: center;
+    background-color: #15f831;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 1px 2px 5px black;
+    /* flex-basis:90px ; */
+    /* max-width: 30px; */
+    /* min-width: 150px; */
+    flex: 1 0 90px;
+    
+    
+}
+.one{
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 2;
+    align-self: flex-end;
+}
+.two{
+    order:0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.three{
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.four{
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+}

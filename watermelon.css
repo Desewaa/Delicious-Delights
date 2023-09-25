@@ -1,0 +1,18 @@
+:root{
+    background-color: #87d8c2;
+    color: #090;
+
+}
+body{
+    background-color: var(#87d8c2);
+
+}
+.watermelon{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

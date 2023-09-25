@@ -1,0 +1,38 @@
+img{
+    width: 200px;
+    height: 200px;
+    /* text-align: center; */
+    display: flex;   
+}
+.container{
+    background-color: skyblue;
+    margin: 50px auto;
+    width: 1000px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+p{
+    color: purple;
+    font-size: 30px;
+}
+@media(max-width:850px){
+    .container{
+        background-color: black;
+    }
+    p{
+        color: white;
+    }
+}
+@media(max-width:850px){
+    img{
+        width:150px ;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .container{
+        background-color: orange;
+    }
+    p{
+        color: red;
+    }
+}
